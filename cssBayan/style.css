@@ -19,12 +19,30 @@ img{
     padding: 5%;
     margin: 10% 20%;
     background-color: white;
+    cursor:pointer;
 }
 
 .text{
+    text-align: left;
     font-size: 5rem;
 }
 
+table{
+    width:100%;
+}
+
+.icon{
+    text-align: right;
+    position: absolute;
+}
+
+.hide{
+    display: none;
+}
+
+table:hover .hide{
+    display: block;
+}
 @media screen and (max-width: 320px) {
     .main{
         border: solid #41424C 0.1vh;
